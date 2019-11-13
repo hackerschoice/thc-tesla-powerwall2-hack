@@ -68,9 +68,9 @@ The Tesla PW comes with two CT sensors. These are A/C current clamps that are in
 
 The Tesla PW uses these clamps to determine when to charge the PW from the Solar PV. E.g. the PW goes into charging mode when the Solar PV generate more electricity than the house uses.
 
-The CT sensors have to be installed in the correct orientation or otherwise the GW sees an inverted (negative) reading. E.g. The GW thinks the house is exporting electricity rather than importing from the grid. Electricians do make mistakes during installation and the Tesla GW allows to *invert the reading in software*.
+The CT sensors have to be installed with the correct orientation or otherwise the GW gets an inverted (negative) reading. E.g. The GW thinks the house is exporting electricity rather than importing from the grid. Electricians do make mistakes and Tesla has this *amazing* feature to *invert the reading in software* if the installer fitted the CT clamps the wrong way around (sweet!)
 
-In the PW-UI Management Interface you will see a tick box called "Flip" next to the CT Clamp. This will INVERT the reading of the CT Sensor.
+In the PW-UI Management Interface this is possible by selecting the "Flip" check-box next to the CT Sensor name on the CT configuration page. 
 
 ---
 **CHARGE & KILL THE GRID**
