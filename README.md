@@ -6,6 +6,9 @@ Let's take a look at this TESLA Powerwall 2. Let's make sure the security is up 
 
 This is a start. Take this and take it further.
 
+Twitter: [@hackerschoice](https://www.twitter.com/hackerschoice)  
+eMail: root at thc.org
+
 ---
 **EXECUTIVE SUMMARY**
 1. GUI wide open.
