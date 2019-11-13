@@ -221,6 +221,7 @@ In Mozilla open the Network Monitor by pressing ‘Cmd+Opt+E’ (Windows: Ctrl+S
 ---
 At Your Service,
 
-**The Hacker's Choice**
+**The Hacker's Choice  
+\*\*\* Berlin Branch \*\*\***
 
 
