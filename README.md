@@ -27,7 +27,7 @@ The SBC is custom built by WinSystems Inc and is called the G400.
 
 The Neurio energy meter is the W1 module. It connects to the SBC via WiFi.
 
-RS-485 is used to communicate between the SBC and the Powerwalls. Up to 10 Powerwalls can be connected to a single GW (daisy-chain).
+RS-485 is used to communicate between the SBC and the battery. Up to 10 batteries can be connected to a single GW (daisy-chain).
 
 The research is based on GUI firmware *1.10.2* and internal firmware *Tesla-0.0.7*
 
@@ -92,6 +92,8 @@ The Problem:
 The PW-UI managment interface has lots of other features which we have not explore (yet). It's possible to play with the grid codes such as forcing the PW into 60Hz or lowering/increasing the allowed export amperage or voltage. *Someone really should take a look at this....*
 
 Imagine what somebody could to with access to the PW GW single board computer...and thus being able to send raw commands via the rs485 to the batteries....
+
+Looks like the ssh version might be vulnerable to [username enumeration](https://bugfuzz.com/stuff/ssh-check-username.py). Also somebody should check serial console and vga/keyboard on the PCB.
 
 ---
 **Automate your attack**
@@ -209,7 +211,7 @@ We use the web browser ‘Mozilla’. Go to “about:config" and delete the valu
 ![disable-encoding](images/disable-encoding.png)
 
 Part 4:
-In Mozilla open the Network Monitor by pressing ‘Cmd+Opt+E’ (Windows: Ctrl+Shift+E). This will allow us to inspect every request to the PW UI and read the response.
+In Mozilla open the Network Monitor by pressing ‘Cmd+Opt+E’ (Windows: Ctrl+Shift+E). That's all it takes these days. This will allow us to inspect every request to the PW UI and read the response.
 
 ![network-console](images/network-console.png)
 
