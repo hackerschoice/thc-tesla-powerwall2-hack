@@ -37,6 +37,8 @@ The research is based on GUI firmware *1.10.2* and internal firmware *Tesla-0.0.
 The GW can  be configured to connect via Ethernet, GSM and Wifi to the Internet/Tesla-HQ. The Internet connection is used for firmware updates and for Tesla to fiddle with your PW. Tesla has unrestricted and remote management capability.
 
 ![Tesla GW PCB](images/tesla-pw-gw.jpg)
+Download: [tesla-pw-gw.jpg](images/tesla-pw-gw.jpg)  
+Download: [tesla-pw-gw-front.jpg](images/tesla-pw-gw-front.jpg)
 
 ```
 22/tcp open  ssh (SSH-2.0-OpenSSH_7.2)
