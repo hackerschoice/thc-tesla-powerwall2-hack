@@ -69,9 +69,9 @@ The password can not be changed. It is not possible to disable the WiFi network.
 ---
 **CT fun:**
 
-![CT Clamp](images/Current-Transformer.jpg)
-
 The Tesla PW comes with two CT sensors. These are A/C current clamps that are installed around the LIVE wire of the incoming GRID line (house LIVE) and the LIVE wire of the SOLAR PV.
+
+![CT Clamp](images/Current-Transformer.jpg)
 
 The Tesla PW uses these clamps to determine when to charge the PW from the Solar PV. E.g. the PW goes into charging mode when the Solar PV generate more electricity than the house uses.
 
