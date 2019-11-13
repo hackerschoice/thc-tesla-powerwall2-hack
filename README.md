@@ -46,7 +46,7 @@ MAC WiFi Address: 00:23:A7:AF:de:ad (Redpine Signals)
 ---
 **PW-UI Management Interface**
 
-The PW-GW’s management interface is accessible via WiFi. The WiFi network name is *TEG-<XYZ>* with XYZ being the last 3 digits of the PW’s serial number. TEG stands for ‘Tesla Energy Gateway’.
+The PW-GW’s management interface is accessible via WiFi. The WiFi network name is *TEG-XYZ* with XYZ being the last 3 digits of the PW’s serial number. TEG stands for ‘Tesla Energy Gateway’.
 
 The password for the WiFi is the serial number. The serial number looks like this:
 
