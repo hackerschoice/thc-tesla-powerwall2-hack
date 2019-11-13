@@ -81,8 +81,8 @@ There are other fun CT Clamp Flip Combinations. Another combination forces the P
 
 The Problem:
 1. Here in the UK we have night rate and day rate for electricty. Night rate is usually 300% cheaper and the PW is charged by night. Now an attacker can trick the PW to charge at day-rate and dump the load into the grid at night-rate, causing a financial loss to the consumer.
-2. I can access quite a few PW's in my village. Does anyone know how the grid feels if all Tesla PW's start dumping their load back into the grid? I can also quickly change between CHARGING and DUMPING. It's really quick. We are talking sub-second switching between CHARGING and DUMPING. How does the grid feel about this oscilating behaviour and when will the sub-station wear out?
-3. It is little understood that Tesla can do all this from their HQ. By this I mean any hacker or employee with the right access to Tesla HQ can put all PW's worldwide into CHARGING and DUMPING and oscilating between these two multiple times per second.  
+2. The default password is crap. It's 2019. This should not happen. An attacker can access multiple Tesla PW's at the same time. Does anyone know how the grid feels if all Tesla PW's start dumping their load back into the grid? I can also quickly change between CHARGING and DUMPING. It's really quick. We are talking sub-second switching between CHARGING and DUMPING. How does the grid feel about me oscilating this and who will die first, the PW or the sub-station?
+3. It is little understood that Tesla can do all this from their HQ. By this I mean any attacker or employee with the right access to Tesla HQ can put all PW's worldwide into CHARGING and DUMPING and oscilating between these two very quickly (sub-second).  
 
 **THC says: Err, do not cause any harm**
 
