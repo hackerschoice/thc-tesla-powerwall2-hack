@@ -7,7 +7,7 @@ Let's take a look at this TESLA Powerwall 2. Let's make sure the security is up 
 This is a start. Take this and take it further.
 
 ---
-**EXECUTIVE SUMMAR**
+**EXECUTIVE SUMMARY**
 1. GUI wide open.
 2. Default password on WiFi and management interface
 3. Attacker can cause financial damage to consumer
