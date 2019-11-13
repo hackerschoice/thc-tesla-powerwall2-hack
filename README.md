@@ -77,7 +77,7 @@ In the PW-UI Management Interface this is possible by selecting the "Flip" check
 
 Let's flip the reading of the GRID CT Clamp in the PW-UI. Lets assume the CT Clamp reading is +1kW (e.g. that the house is drawing +1kW from the grid). After flipping the reading the GW received -1kW and believes that the energy is being exported to the grid. The PW immediately goes into chargning mode and starts charging the PW. This causes more power to be drawn from the grid (say +2kW). The CT Clamp reports this to the GW as -2kW (remember, it's flipped) and the PW ramps up charging...and draws even more power from the grid..and so on and so on...until it's charging at full load of +5kW. All this happenes within microseconds. **WARNING: The battiery gets hot very quickly and the fans start spinning at full power**
 
-There are other fun CT Clamp Flip Combinations. Another combination forces the PW to dump it's entire charge back into the grid.
+There are other fun CT Clamp Flip Combinations. Another combination forces the PW to dump it's entire charge back into the grid - all at once of course.
 
 The Problem:
 1. Here in the UK we have night rate and day rate for electricty. Night rate is usually 300% cheaper and the PW is charged by night. Now an attacker can trick the PW to charge at day-rate and dump the load into the grid at night-rate, causing a financial loss to the consumer.
