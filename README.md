@@ -135,7 +135,6 @@ GET API calls:
 /api/site_info
 /api/sitemaster         # Shows running, uptime, connected_to_tesla...
 /api/solar
-/api/status
 /api/system_status/grid_faults
 /api/system/testing
 /api/system/update/status
