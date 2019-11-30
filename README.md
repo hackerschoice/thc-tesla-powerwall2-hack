@@ -20,7 +20,7 @@ eMail: root at thc.org
 
 ---
 **Introduction:**
-The Tesla Powerwall 2 (PW) is a battery storage solution. It is often installed in combination with photovoltaic solar panels (PVs). The PW will store the PV generated power during daytime when the sun is shining and make the power available to the house when the sun is not shining. The PW can store up to 13.5kW of electric power and load/unload it at 5kW (7kW peak US / 5kW peak in the UK).
+The Tesla Powerwall 2 (PW) is a battery storage solution. It is often installed in combination with photovoltaic solar panels (PVs). The PW will store the PV generated power during daytime when the sun is shining and make the power available to the house when the sun is not shining. The PW can store up to 13.5kWh of electric power and load/unload it at 5kW (7kW peak US / 5kW peak in the UK).
 
 ---
 **Components:**
