@@ -230,6 +230,50 @@ The Backup Gateway seems to have better security. The wifi password seems to be 
 
 This is encouraging. Hopefully those changes will make it into TESLA's standard gateway.
 
+Some random infos:
+```
+PORT      STATE SERVICE
+22/tcp    open  ssh
+53/tcp    open  domain
+80/tcp    open  http
+443/tcp   open  https
+8306/tcp  open  unknown
+29810/tcp open  unknown
+```
+
+hec-updater has been renamed to teg-updated:
+```
+Connection to 192.168.91.1 port 8306 [tcp/*] succeeded!
+Welcome to Model S teg-updater ONLINE Built for Package Version: 19.35.0 (84d72242c0ee9133 @ 201ec5963d8c1838f40b4d982d9a008399d021a7) up 1150818.940038000s!
+> status
+Executable: /deploy/teg-updater, personality: teg-updater, hash 84d72242c0ee9133, built for package version: 19.35.0
+uptime: 1150826.911056625s
+
+/proc/uptime:
+1150765.55 904594.39
+
+current bootdata Contents: 0xef 0xbe 0xad 0xde 0x02 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x40 0x90 0x1e 0x09 0x40 0xb0 0x29 0x09 0x00 0x00 0x00 0x00 0x31 0x31 0x35 0x32 0x31 0x30 0x30 0x2d 0x30 0x33 0x2d 0x45 0x2d 0x2d 0x54 0x47 0x31 0x31 0x39 0x30 0x39 0x33 0x30 0x30 0x31 0x43 0x4d 0x34 0x00 0x00 0x00 0x00
+Pattern:             0xdeadbeef
+Online boot bank:    KERNEL_B
+Online fail count:        0
+Online dot-model-s size:  153727040
+Offline boot bank:        KERNEL_A
+Offline fail count:       0
+Offline dot-model-s size: 152997952
+MCU Board Revision:
+Serial Number:  1152100-03-E--TG119093nnnnnn
+Fused: 1
+Override-version: 0
+
+running_in_recovery_partition = 0
+installed_firmware_signature = /xeSvkWXSFK7vkT5S/spflhBLyVos8KE3ctYRlS3DHjkdSohHpOMuMjV1IFjBOEVHrIZDMVti0Y3m6rxZVTpBA==
+offline_firmware_signature = yMChUjgg5tF6DS2snMGoxm62eR5ftrUFbex/PviN2o8HOLGJxZm2tOwjNEs2JHV1aFJ4BLDiX1uZgifDXY/NBA==
+staged_update = no
+gateway_needs_update = no
+
+END STATUS
+```
+
 At Your Service,
 
 **The Hacker's Choice  
