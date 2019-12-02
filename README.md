@@ -222,6 +222,14 @@ In Mozilla open the Network Monitor by pressing ‘Cmd+Opt+E’ (Windows: Ctrl+S
 ![network-console](images/network-console.png)
 
 ---
+**Backup Gateway**
+
+A normal Tesla PW installation comes with TESLA's standard gateway. However, the Tesla PW can also be installed with the much larger 'Backup Gateway'. The Backup Gateway makes the above gateway redundant and adds other features to the PW, such as powering the house in case of a grid failure.
+
+The Backup Gateway seems to have better security. The wifi password seems to be more random and is printed on a sticker inside the lid. The installer password can only be reset with physical access to the PW (toggle the on/off switch).
+
+This is encouraging. Hopefully those changes will make it into TESLA's standard gateway.
+
 At Your Service,
 
 **The Hacker's Choice  
