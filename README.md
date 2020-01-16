@@ -48,6 +48,21 @@ Download: [tesla-pw-gw-front.jpg](images/tesla-pw-gw-front.jpg)
 MAC ETH  Address: 00:01:45:07:31:17 (Winsystems)
 MAC WiFi Address: 00:23:A7:AF:de:ad (Redpine Signals)
 ```
+Here are some commands you can execute on the hec-updated on port 8306:
+```
+status
+ins 
+auth
+readsig
+watch
+patch
+reset
+exit
+handshake
+override_handshake
+gostaged
+vin
+```
 ---
 **PW-UI Management Interface**
 
