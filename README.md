@@ -26,7 +26,7 @@ The Tesla Powerwall 2 (PW) is a battery storage solution. It is often installed 
 **Components:**
 The Gateway (GW) consists of a Single Board Computer (SBC) and an energy meter (Neurio).
 
-The SBC is custom built by WinSystems Inc and is called the G400.
+The SBC is custom built by WinSystems Inc and is called the G400. The main chip is a [MCIMX6S7CVM08AC](https://www.mouser.co.uk/datasheet/2/302/IMX6SDLIEC-1126203.pdf) from NXP. It is not underfilled and all balls are accessible (*hint*).
 
 The Neurio energy meter is the W1 module. It connects to the SBC via WiFi.
 
